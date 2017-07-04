@@ -120,8 +120,11 @@ public class TodoListDbActivity extends AppCompatActivity
                 adapter.removeItem(position);
                 //reload(); 둘중 하나 선택
 
+
             }
         });
+
+
         builder.setNegativeButton("취소", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
